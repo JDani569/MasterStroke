@@ -1,11 +1,11 @@
 {% extends "base.html" %}
 
-{% block title %}Home - Master Stroke Learning Platform{% endblock %}
+{% block title %}Home - Master's Stroke Learning Platform{% endblock %}
 
 {% block content %}
 <div class="jumbotron bg-light p-5 rounded">
     <div class="container">
-        <h1 class="display-4">Welcome to Master Stroke Learning</h1>
+        <h1 class="display-4">Welcome to Master's Stroke Learning</h1>
         <p class="lead">Discover high-quality educational content, interactive exercises, and comprehensive courses.</p>
         <hr class="my-4">
         <p>Start your learning journey today with our wide range of courses across mathematics, science, programming,
@@ -139,6 +139,52 @@
     </div>
 </section>
 
+<section class="py-5 bg-light">
+    <h2 class="text-center mb-5">What we Provide</h2>
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between mb-3">
+                        <div class="d-flex align-items-center">
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between mb-3">
+                        <div class="d-flex align-items-center">
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between mb-3">
+                        <div class="d-flex align-items-center">
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Testimonials Section -->
 <section class="py-5 bg-light">
     <h2 class="text-center mb-5">What Our Students Say</h2>
@@ -165,7 +211,8 @@
                             <i class="fas fa-star"></i>
                         </div>
                     </div>
-                    <p class="card-text">"The programming courses on Master Stroke helped me understand complex concepts
+                    <p class="card-text">"The programming courses on Master's Stroke helped me understand complex
+                        concepts
                         better than my university lectures. The video explanations are clear and concise!"</p>
                 </div>
             </div>
@@ -220,7 +267,7 @@
                         </div>
                     </div>
                     <p class="card-text">"As someone learning new skills while working full-time, the flexibility of
-                        Master Stroke's platform has been a game-changer. I can learn at my own pace and track my
+                        Master's Stroke's platform has been a game-changer. I can learn at my own pace and track my
                         progress."</p>
                 </div>
             </div>
@@ -239,4 +286,44 @@
         {% endif %}
     </div>
 </section>
+
+<section class="bg-white py-16" id="our-team">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+        <h2 class="text-4xl font-bold text-gray-800 mb-4">Meet Our Team</h2>
+        <p class="text-gray-600 mb-12">A passionate group of educators, developers, and creators powering MasterStroke.
+        </p>
+
+        <div class="flex flex-col lg:flex-row gap-10 justify-center">
+            <!-- Team Member 1 -->
+            <div class="bg-gray-100 rounded-2xl p-6 shadow hover:shadow-lg transition w-full lg:w-1/3">
+                <img class="w-24 h-24 mx-auto rounded-full mb-4" src="/static/images/team1.jpg" alt="Aarav Sharma">
+                <h3 class="text-xl font-semibold text-gray-800">Aarav Sharma</h3>
+                <p class="text-sm text-gray-500 mb-2">Co-Founder & CEO</p>
+                <p class="text-gray-600 text-sm">Drives product vision and leads the team with innovation and purpose.
+                </p>
+            </div>
+
+            <!-- Team Member 2 -->
+            <div class="bg-gray-100 rounded-2xl p-6 shadow hover:shadow-lg transition w-full lg:w-1/3">
+                <img class="w-24 h-24 mx-auto rounded-full mb-4" src="/static/images/team2.jpg" alt="Priya Nair">
+                <h3 class="text-xl font-semibold text-gray-800">Priya Nair</h3>
+                <p class="text-sm text-gray-500 mb-2">Chief Academic Officer</p>
+                <p class="text-gray-600 text-sm">Heads our educational content and ensures quality across the platform.
+                </p>
+            </div>
+
+            <!-- Team Member 3 -->
+            <div class="bg-gray-100 rounded-2xl p-6 shadow hover:shadow-lg transition w-full lg:w-1/3">
+                <img class="w-24 h-24 mx-auto rounded-full mb-4" src="/static/images/team3.jpg" alt="Rahul Mehta">
+                <h3 class="text-xl font-semibold text-gray-800">Rahul Mehta</h3>
+                <p class="text-sm text-gray-500 mb-2">Lead Engineer</p>
+                <p class="text-gray-600 text-sm">Architects and builds scalable systems that power MasterStroke.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
 {% endblock %}
